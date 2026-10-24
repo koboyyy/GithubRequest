@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,19 +26,15 @@
             android:text="@string/get_info"
             android:layout_weight="0.25"/>
     </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp">
-
         <TextView
             android:id="@+id/tvUserInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/info_github_user"
             android:textSize="20sp"/>
-
     </ScrollView>
-
 </LinearLayout>

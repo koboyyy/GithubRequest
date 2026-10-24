@@ -1,4 +1,4 @@
-package id.ac.polbeng.asmira.githubrequest
+package id.ac.polbeng.eko.githubrequest
 
 import org.junit.Test
 

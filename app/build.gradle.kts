@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "id.ac.polbeng.asmira.githubrequest"
+    namespace = "id.ac.polbeng.eko.githubrequest"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "id.ac.polbeng.asmira.githubrequest"
+        applicationId = "id.ac.polbeng.eko.githubrequest"
         minSdk = 27
         targetSdk = 36
         versionCode = 1
@@ -44,7 +44,7 @@ dependencies {
     implementation("androidx.work:work-runtime:$work_version")
     implementation("androidx.work:work-runtime-ktx:$work_version")
     implementation("com.squareup.okhttp3:okhttp:$okhttp_version")
-    implementation("com.squareup.okhttp3:logging interceptor:$okhttp_version")
+    implementation("com.squareup.okhttp3:logging-interceptor:$okhttp_version")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
